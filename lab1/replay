@@ -1,0 +1,239 @@
+Script started on Monday 21 August 2017 03:11:19 PM IST
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ exit./prog5.sh[6Pexit./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.out[3Pexit./prog5.sh[6Pexit[Kexit[Kexit./prog5.sh[6Pexit./a.out[3Pexit./prog5.sh[6Pexit[Kexit./prog5.sh[6Pexit[Ksubl progs.s[K[K[K5.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ subl prog5.shexit[K./prog5.sh
+Enter two numbers: 2
+5
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter  the operator: 4
+Result: .40
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ scriptreplay tmp/time.txt
+scriptreplay: cannot open tmp/time.txt: No such file or directory
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ scriptreplay tmp/time.txt/tmp/time.txt
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ script -texit ./a.out-gcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.out[3Pexit[K    e./prog5.sh
+Enter two numbers: 5
+4
+-e 1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter  the operator: 1
+Result: 9
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ exit
+exit
+
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ script -te[K[K[K[K[K[K[K[K[K[Kscriptreplay /tmp/time.txt[1Ptmp/time.txt/tmp/time.txt
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ ^[[A^[[B        exit./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.out[3Pexit[K./prog5.sh
+Enter two numbers: 5
+4
+-e 1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter  the operator: 1
+Result: 9
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ exit
+exit
+
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$   [K[Kscriptreplay /tmp/time.txt[1Ptmp/time.txt[15P./prog5.shsubl prog5.sh[3P./prog5.shscriptreplay tmp/time.txt/tmp/time.txt[Kscript -te[K[K[K[K[K[K[K[K[K[Kwho ia[K am
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ echo [K[K[K[K[Kwho
+student  tty7         2017-08-21 14:34 (:0)
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ tty7
+No command 'tty7' found, did you mean:
+ Command 'tty' from package 'coreutils' (main)
+tty7: command not found
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ tty7[K
+/dev/pts/2
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ cd ..
+]0;student@itadmin-ug1: ~/it144/unix[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix[00m$ al[K[Kcd lab2
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ls
+[0m[01;32mprog2.sh[0m  [01;32mprog3.sh[0m  [01;32mprog5.sh[0m  [01;32mprog6.sh[0m
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog2[K7.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog7.shls[Kcd lab2ls[Ksubl prog7.sh[K[K[K[K[K[K[K[K[K[K[K[K[Klscd lab2[2P..[2Ptty7[1Pwho i amscriptreplay /tmp/time.txt[1Ptmp/time.txt/tmp/time.txtwho i am[K[Ktty7[Kcd ..lab2ls[K[Klscd lab2ls[K[Ksubl prog7.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog7.sh[Kchmod+x prog7.sh
+chmod+x: command not found
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ chmod+x prog7.sh[1@ 
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog7.sh
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany -imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany -imaxbel iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+Enter the password
+ufifeioruer
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog7.shchmod +x prog7.sh[1P[C[C[C[C[C[C[C[C[C[C[C[3Psubl[C[C[C[C[C[C[C[C[C
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog7.sh[3P./prog7.sh
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+Enter the password
+[A[Adkwdf
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog7.shsubl prog7.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog7.sh[3P./prog7.sh
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^Z; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+
+
+
+Enter the password
+fjkf
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog7.shsubl prog7.sh[1P.sh8.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog8.sh[3P./prog7.shsubl prog8.sh[3P./prog7.shsubl prog7.sh[3P./prog7.shsubl prog7.sh[3P./prog7.shchmod +x prog7.sh[1P[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[1P.sh8.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ chmod +x prog8.sh[4Psubl[C[C[C[C[C[C[C[C[C[3P./prog7.sh[1P.sh8.sh
+whi o
+./prog8.sh: 3: ./prog8.sh: select: not found
+./prog8.sh: 4: ./prog8.sh: Syntax error: "do" unexpected
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog8.shchmod +x prog8.sh[4Psubl[C[C[C[C[C[C[C[C[C
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog8.sh[3P./prog8.sh
+who
+./prog8.sh: 3: ./prog8.sh: select: not found
+student  tty7         2017-08-21 14:34 (:0)
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog8.shsubl prog8.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog8.sh[3P./prog8.sh
+who
+student  tty7         2017-08-21 14:34 (:0)
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog8.shsubl prog8.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog8.sh[3P./prog8.sh
+1.date
+2.cal
+3.who
+4.whoami
+5.tty
+5
+/dev/pts/2
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog8.shsubl prog8.sh[1P.sh9.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog9.sh[3P./prog8.sh[1P.sh9.sh
+bash: ./prog9.sh: Permission denied
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog9.shsubl prog9.sh[3P./prog8.shsubl prog8.sh[3P./prog8.shsubl prog8.sh[3P./prog8.shsubl prog8.sh[3P./prog8.shchmod +x prog8.sh[4Psubl[C[C[C[C[C[C[C[C[C[4@chmod +x[C[C[C[C[C[C[C[C[C[1P.sh9.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ chmod +x prog9.sh[7P./prog9.sh
+student  tty7         2017-08-21 14:34 (:0)
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog9.shchmod +x prog9.sh[7P./prog9.shsubl prog9.sh[1P.sh1.sh0.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ subl prog10.sh[4P./prog9.shchmod +x prog9.sh[1P.sh1.sh0.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ chmod +x prog10.sh[4Psubl[C[C[C[C[C[C[C[C[C[C[4P./prog9.sh[1P.sh1.sh0.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ./prog10.shchmod +x prog10.sh[4Psubl[C[C[C[C[C[C[C[C[C[C1.sh[1P.sh[1P.sh1.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty
+speed 38400 baud; line = 0;
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty -a
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty eof ^H
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty -a
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^H; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ cat > a.sh
+hbhbvgfhbg
+^D]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty sane
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ stty -a
+speed 38400 baud; rows 43; columns 143; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = ^D; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = ^Q; stop = ^S; susp = ^Z;
+rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O; min = 1; time = 0;
+-parenb -parodd -cmspar cs8 -hupcl -cstopb cread -clocal -crtscts
+-ignbrk brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl ixon -ixoff -iuclc -ixany imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ls
+a.sh  [0m[01;32mprog10.sh[0m  [01;32mprog2.sh[0m  [01;32mprog3.sh[0m  [01;32mprog5.sh[0m  [01;32mprog6.sh[0m  [01;32mprog7.sh[0m  [01;32mprog8.sh[0m  [01;32mprog9.sh[0m
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ unalias ls
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ls
+a.sh  prog10.sh  prog2.sh  prog3.sh  prog5.sh  prog6.sh  prog7.sh  prog8.sh  prog9.sh
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ alias ls='ls --color=auto'
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ ls
+a.sh  [0m[01;32mprog10.sh[0m  [01;32mprog2.sh[0m  [01;32mprog3.sh[0m  [01;32mprog5.sh[0m  [01;32mprog6.sh[0m  [01;32mprog7.sh[0m  [01;32mprog8.sh[0m  [01;32mprog9.sh[0m
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ alias dog
+bash: alias: dog: not found
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ alias dog='echo bhhbv'
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab2[00m$ dog
+bhhbv
+]0;student@itadmin-ug1: ~/it144/unix/lab2[01;32mstudent@itadmin-ug1[00m:[01;34m~/it

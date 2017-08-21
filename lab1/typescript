@@ -1,0 +1,14 @@
+Script started on Monday 21 August 2017 03:10:33 PM IST
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ exit./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.outgcc -fopenmp p3.c[10P./a.out[3Pexit[K./prog5.sh
+Enter two numbers: 5
+4
+-e 1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter  the operator: 1
+Result: 9
+]0;student@itadmin-ug1: ~/it144/unix/lab1[01;32mstudent@itadmin-ug1[00m:[01;34m~/it144/unix/lab1[00m$ exit
+exit
+
+Script done on Monday 21 August 2017 03:11:12 PM IST
