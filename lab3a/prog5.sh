@@ -1,18 +1,19 @@
-#!/bin/bash
-#echo Enter number
-#read n
-for((i=1;i<=999;i++))
+for ((i=1;i<1000;i++))
 do
-n=$i
-num=$n
-s=0
-while [ $n -ne 0 ];do
-	r=$(echo "$n%10"|bc)
-	s=$(echo "$s+$r*$r*$r"|bc)
-	n=$(echo "$n/10"|bc)
+Number=$i
+Length=${#Number}
+Sum=0
+OldNumber=$Number
+
+while [ $Number -ne  0 ]
+do
+     Rem=$((Number%10))
+     Number=$((Number/10))
+     Power=$(echo "$Rem ^ $Length" | bc )
+     Sum=$((Sum+$Power))
 done
-if [ $s -eq $num ]
+if [ $Sum -eq $OldNumber ]
 then
-	echo $s
+    echo "$OldNumber"
 fi
 done

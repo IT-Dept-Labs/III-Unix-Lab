@@ -32,7 +32,7 @@ echo "Negative: $neg"
 echo "Zero(s): $zer"
 for((i=1;i<MAX+1;i++))
 do
-	for((j=$i;j<MAX;j++))
+	for((j=$i;j<MAX+1;j++))
 	do
 		if [ ${arr[$i]} -gt ${arr[$j]}  ]; then
            t=${arr[$i]}

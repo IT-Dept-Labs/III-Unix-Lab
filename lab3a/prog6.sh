@@ -1,3 +1,8 @@
+
 ls -d */ | wc -w
-ls -d
-ls -al | grep ^
+echo
+ls -p | grep -v / | wc -w
+echo 
+ls -d */
+echo -e 
+ls -p | grep -v /
