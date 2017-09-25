@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "Enter five numbers: "
 read a1
 read a2
