@@ -42,6 +42,7 @@ do
 	done
 done
 
+
 for((i=0;i<MAX+1;i++))
 do
 	echo -n "${arr[i]} "
