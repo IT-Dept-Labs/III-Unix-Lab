@@ -17,7 +17,7 @@ do
 	if [ $i -eq 0 ]
 		then
 		let "zer += 1"
-		#zer=$(echo "zer+1"|bc)
+	
 	elif [ $i -lt 0 ]
 		then
 		let "neg += 1"
