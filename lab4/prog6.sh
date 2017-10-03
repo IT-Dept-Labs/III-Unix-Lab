@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo -n "Enter number of rows in matrix 1: "
 read m1
 echo -n "Enter number of columns in matrix 1: "
@@ -26,3 +26,12 @@ if [ $m1 -eq $m2 ] && [ $n1 -eq $n2 ]
 			read arr2[$i][$j]
 		done
 	done
+	for((i=0;i<$m2;i++))
+	do
+		for((j=0;j<$n1;j++))
+		do
+			#arr3[$i][$j]=$(echo"arr1[$i][$j]+arr2[$i][$j]"|bc)
+			echo ${arr1[$i][$j]}+${arr2[$i][$j]}
+		done
+	done
+fi
