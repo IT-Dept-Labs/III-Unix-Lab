@@ -1,3 +1,11 @@
-echo -n "Enter the file: "
-read name
-ls -l $name | cut -d " " -f 1
+echo "Enter a filename"
+read f
+echo -n "`ls -l $f|cut -c2` "
+echo -n "`ls -l $f|cut -c3` "
+echo -n "`ls -l $f|cut -c4` "
+echo -n "`ls -l $f|cut -c5` "
+echo -n "`ls -l $f|cut -c6` "
+echo -n "`ls -l $f|cut -c7` "
+echo -n "`ls -l $f|cut -c8` "
+echo -n "`ls -l $f|cut -c9` "
+echo -n "`ls -l $f|cut -c10` "

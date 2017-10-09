@@ -9,7 +9,7 @@ while [ $Number -ne  0 ]
 do
      Rem=$((Number%10))
      Number=$((Number/10))
-     Power=$(echo "$Rem ^ $Length" | bc )
+     Power=$(echo "$Rem ^ 3" | bc )
      Sum=$((Sum+$Power))
 done
 if [ $Sum -eq $OldNumber ]

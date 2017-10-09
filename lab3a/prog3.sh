@@ -1,51 +1,53 @@
-#!/bin/sh
-echo "Enter five numbers: "
-read a1
-read a2
-read a3
-read a4
-read a5
-echo -n "Minimum: "
-if [ $a1 -le $a2 ] && [ $a1 -le $a3 ] && [ $a1 -le $a4 ] && [ $a1 -le $a5 ]
-	then 
-	min=$a1
+echo "Enter 5 numbers"
+declare -a arr
+for ((i=0;i<5;i++))
+do
+read arr[$i]
+done
+for ((i=0;i<5;i++))
+do
+for ((j=i+1;j<5;j++))
+do
+if [ ${arr[$j]} -gt ${arr[$i]} ]
+then
+num=${arr[$j]}
+arr[$j]=${arr[$i]}
+arr[$i]=$num
 fi
-if [ $a2 -le $a1 ] && [ $a2 -le $a3 ] && [ $a2 -le $a4 ] && [ $a2 -le $a5 ]
-	then 
-min=$a2
+done 
+done
+min=${arr[4]}
+max=${arr[0]}
+minc=0
+maxc=0
+for ((i=3;i>=0;i--))
+do
+if [ ${arr[$i]} -eq $min ]
+then
+minc=`expr $minc + 1`
 fi
-if [ $a3 -le $a2 ] && [ $a3 -le $a1 ] && [ $a3 -le $a4 ] && [ $a3 -le $a5 ]
-	then 
-	min=$a3
+done
+
+for ((i=1;i<5;i++))
+do
+if [ ${arr[$i]} -eq $max ]
+then
+maxc=`expr $maxc + 1`
 fi
-if [ $a4 -le $a2 ] && [ $a4 -le $a3 ] && [ $a4 -le $a1 ] && [ $a4 -le $a5 ]
-	then 
-	min=$a4
+done
+
+
+if [ $minc -gt 0 ]
+then
+echo "Min=${arr[4]} and repeated ${minc+2} times"
+else
+echo "Min=${arr[4]}"
 fi
-if [ $a5 -le $a2 ] && [ $a5 -le $a3 ] && [ $a5 -le $a4 ] && [ $a5 -le $a1 ]
-	then 
-	min=$a5
+
+if [ $maxc -gt 0 ]
+then
+echo "Max=${arr[0]} and repeated ${maxc+2} times"
+else
+echo "Max=${arr[0]}"
 fi
-echo $min
-echo -n "Maximum: "
-if [ $a1 -ge $a2 ] && [ $a1 -ge $a3 ] && [ $a1 -ge $a4 ] && [ $a1 -ge $a5 ]
-	then 
-	max=$a1
-fi
-if [ $a2 -ge $a1 ] && [ $a2 -ge $a3 ] && [ $a2 -ge $a4 ] && [ $a2 -ge $a5 ]
-	then 
-	max=$a2
-fi
-if [ $a3 -ge $a2 ] && [ $a3 -ge $a1 ] && [ $a3 -ge $a4 ] && [ $a3 -ge $a5 ]
-	then 
-	max=$a3
-fi
-if [ $a4 -ge $a2 ] && [ $a4 -ge $a3 ] && [ $a4 -ge $a1 ] && [ $a4 -ge $a5 ]
-	then 
-	max=$a4
-fi
-if [ $a5 -ge $a2 ] && [ $a5 -ge $a3 ] && [ $a5 -ge $a4 ] && [ $a5 -ge $a1 ]
-	then 
-	max=$a5
-fi
-echo $max
+

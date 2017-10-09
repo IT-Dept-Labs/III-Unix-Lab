@@ -1,37 +1,33 @@
-#!/bin/bash
-echo -n "Enter number of rows in matrix 1: "
-read m1
-echo -n "Enter number of columns in matrix 1: "
-read n1
-echo -n "Enter number of rows in matrix 2: "
-read m2
-echo -n "Enter number of columns in matrix 2: "
-read n2
-if [ $m1 -eq $m2 ] && [ $n1 -eq $n2 ]
-	then
-	echo "Enter the elements of matrix 1: "
-	for (( i=0;i<$m1;i++ ))
-	do 
-		for(( j=0;j<$n1;j++ ))
-		do
-			read arr1[$i][$j]
-		done
-	done
-
-	echo "Enter the elements of matrix 2: "
-	for((i=0;i<$m2;i++))
-	do 
-		for((j=0;j<$n2;j++))
-		do
-			read arr2[$i][$j]
-		done
-	done
-	for((i=0;i<$m2;i++))
-	do
-		for((j=0;j<$n1;j++))
-		do
-			#arr3[$i][$j]=$(echo"arr1[$i][$j]+arr2[$i][$j]"|bc)
-			echo ${arr1[$i][$j]}+${arr2[$i][$j]}
-		done
-	done
-fi
+declare -A m1
+declare -A m2
+r=0
+c=0
+echo "Enter the number of rows and columns"
+read r
+read c
+echo "Enter the elements of first matrix"
+for((i=0;i<r;i++))
+do
+for((j=0;j<c;j++))
+do
+read m1[$i,$j]
+done
+done
+echo "Enter the elements of second matrix"
+for((i=0;i<r;i++))
+do
+for((j=0;j<c;j++))
+do
+read m2[$i,$j]
+done
+done
+echo Result:
+for((i=0;i<r;i++))
+do
+for((j=0;j<c;j++))
+do
+echo -n $(echo "${m1[$i,$j]} + ${m2[$i,$j]} " | bc)
+echo -n " "
+done
+echo
+done
