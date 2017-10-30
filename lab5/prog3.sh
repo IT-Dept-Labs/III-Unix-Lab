@@ -28,35 +28,49 @@ case $num in
 		for((i=1;i<=$count;i++))
 		do
 			temp=` cat details.lst|cut -f1 -d '|'|paste -s -d " "|cut -f$i -d " " `
+			echo $temp
 			if [ $temp -eq $roll ]
 				then
-				#Remove the line
+				sed "/$roll/d" details.lst > temp.lst
+				cat temp.lst > details.lst
 				flag=1
-				echo True
 			fi
 		done
+		if [ $flag -eq 0 ]
+			then
+			echo Roll number not found!
+		fi
 
 		
 		;;
 	3) echo Search
 		echo -n "Enter the rollNo: "
 		read roll
-		res=` cat details.lst|cut -f1 -d '|' `
-		count=` cat details.lst|cut -f1 -d '|' |wc -l `
-		flag=0
-		for((i=1;i<=$count;i++))
-		do
-			temp=` cat details.lst|cut -f1 -d '|'|paste -s -d " "|cut -f$i -d " " `
-			if [ $temp -eq $roll ]
-				then
-				flag=1
-				echo True
-			fi
-		done
-		if [ $flag -eq 0 ]
-			then
-			echo False
-		fi
+		# res=` cat details.lst|cut -f1 -d '|' `
+		# count=` cat details.lst|cut -f1 -d '|' |wc -l `
+		# flag=0
+		# for((i=1;i<=$count;i++))
+		# do
+		# 	temp=` cat details.lst|cut -f1 -d '|'|paste -s -d " "|cut -f$i -d " " `
+		# 	if [ $temp -eq $roll ]
+		# 		then
+		# 		flag=1
+		# 		echo True
+		# 	fi
+		# done
+		# if [ $flag -eq 0 ]
+		# 	then
+		# 	echo False
+		# fi
+		grep $roll details.lst
+		# temp=`cut -f1 -d '|' $res`
+		# if [ $temp -eq $roll ]
+		# 	then
+		# 	echo False
+		# else
+		# 	echo True
+		# fi
+
 
 		;;
 	4) echo Quit;;
