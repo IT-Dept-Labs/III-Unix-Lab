@@ -1,3 +1,2 @@
-ps -a
-echo 
-ps
+ps -u
+echo $$
