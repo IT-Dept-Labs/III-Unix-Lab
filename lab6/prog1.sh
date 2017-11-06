@@ -1,2 +1,2 @@
 ps -u
-echo $$
+ps|sed '2q'
