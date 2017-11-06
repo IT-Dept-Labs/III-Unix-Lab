@@ -1,3 +1,3 @@
 
-sort -n file2 > abc.txt &
+sort -n file2.txt > abc.txt &
 ps -u |wc -l
