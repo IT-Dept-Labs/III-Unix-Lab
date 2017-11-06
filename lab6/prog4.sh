@@ -1,5 +1,5 @@
 sleep 15
 echo "Hello"
 
-
-kill this
+#run in bg using &
+#kill 'this'

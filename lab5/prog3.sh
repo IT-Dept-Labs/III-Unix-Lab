@@ -22,24 +22,24 @@ case $num in
 	2) echo Delete
 		echo -n "Enter the rollNo: "
 		read roll
-		res=` cat details.lst|cut -f1 -d '|' `
-		count=` cat details.lst|cut -f1 -d '|' |wc -l `
-		flag=0
-		for((i=1;i<=$count;i++))
-		do
-			temp=` cat details.lst|cut -f1 -d '|'|paste -s -d " "|cut -f$i -d " " `
-			echo $temp
-			if [ $temp -eq $roll ]
-				then
+		# res=` cat details.lst|cut -f1 -d '|' `
+		# count=` cat details.lst|cut -f1 -d '|' |wc -l `
+		# flag=0
+		# for((i=1;i<=$count;i++))
+		# do
+		# 	temp=` cat details.lst|cut -f1 -d '|'|paste -s -d " "|cut -f$i -d " " `
+		# 	echo $temp
+		# 	if [ $temp -eq $roll ]
+		# 		then
 				sed "/$roll/d" details.lst > temp.lst
 				cat temp.lst > details.lst
-				flag=1
-			fi
-		done
-		if [ $flag -eq 0 ]
-			then
-			echo Roll number not found!
-		fi
+		# 		flag=1
+		# 	fi
+		# done
+		# if [ $flag -eq 0 ]
+		# 	then
+		# 	echo Roll number not found!
+		# fi
 
 		
 		;;
